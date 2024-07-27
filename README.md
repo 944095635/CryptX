@@ -5,3 +5,5 @@
 <video src="https://raw.githubusercontent.com/944095635/CryptX/main/demo/X.mp4" controls="controls">
 您的浏览器不支持 video 标签。
 </video>
+
+[点此查看演示视频](https://raw.githubusercontent.com/944095635/CryptX/main/demo/X.mp4)
