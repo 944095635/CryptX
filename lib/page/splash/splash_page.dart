@@ -32,7 +32,8 @@ class _SplashPageState extends State<SplashPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            20.horizontalPadding(
+            Padding(
+              padding: 20.horizontal,
               child: FadeOutLeft(
                 animate: _animate,
                 curve: Curves.ease,
@@ -72,7 +73,8 @@ class _SplashPageState extends State<SplashPage> {
                 ),
               ),
             ),
-            20.horizontalPadding(
+            Padding(
+              padding: 20.horizontal,
               child: FadeOutLeft(
                 animate: _animate,
                 curve: Curves.ease,
@@ -91,7 +93,8 @@ class _SplashPageState extends State<SplashPage> {
               ),
             ),
             24.verticalSpace,
-            24.horizontalPadding(
+            Padding(
+              padding: 20.horizontal,
               child: FadeOutLeft(
                 animate: _animate,
                 curve: Curves.ease,
